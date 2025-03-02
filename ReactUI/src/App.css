@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/*.h1{*/
+/*  font-size: calc(10px + 2vmin);*/
+/*  color: #2e6be3;*/
+/*}*/
+
+h1{
+  font-size: calc(10px + 2vmin);
+  color: #2e6be3;
+}
+
+.post-card {
+  background-color: #f9f9f9; /* Light background for the card */
+  border: 1px solid #ddd; /* Subtle border */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+  padding: 20px; /* Inner spacing */
+  margin: 20px 0; /* Space between cards */
+  font-family: Arial, sans-serif; /* Clean font */
+}
+
+.post-card h5 {
+  font-size: 20px; /* Larger font for the post content */
+  line-height: 1.6; /* Better line spacing */
+  color: #333; /* Dark gray for readability */
+  margin-bottom: 15px; /* Space below the heading */
+  text-align: justify; /* Justify the text */
+}
+
+.post-card p {
+  font-size: 14px; /* Smaller font for metadata */
+  color: #666; /* Lighter gray for less emphasis */
+  margin-bottom: 15px; /* Space below the paragraph */
+}
+
+.post-card .btn {
+  display: inline-block; /* Ensure the button is inline */
+  background-color: #065678; /* Primary button color */
+  color: #fff; /* White text */
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Rounded corners */
+  padding: 8px 12px; /* Button padding */
+  font-size: 14px; /* Button text size */
+  cursor: pointer; /* Pointer cursor on hover */
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.post-card .btn:hover {
+  background-color: #04445a; /* Darker shade on hover */
+}
+
+.comment-card {
+  background-color: #fdfdfd;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 15px;
+  margin-bottom: 15px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  font-family: Arial, sans-serif;
+}
+
+.comment-card p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #444;
+}
+
+.comment-card p strong {
+  font-weight: bold;
+  color: #065678;
+}
+
+.comment-card .text-muted {
+  font-size: 12px;
+  color: #888;
+  margin-top: 5px;
+}
